@@ -1,0 +1,71 @@
+  .stock-ticker {
+    font-size: 15px;
+    padding-block: 8px;
+    border-block: 1px solid;
+    overflow: hidden;
+    user-select: none;
+    margin-top: 2em;
+
+    --gap: 20px;
+    display: flex;
+    gap: var(--gap);
+  }
+  
+  .stock-ticker ul {
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+    margin-bottom: 0;
+  
+    animation: scroll 40s linear infinite;
+  }
+  
+  .stock-ticker:hover ul {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scroll {
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  
+  .stock-ticker ul:first-child {
+    /* background-color: yellow; */
+  }
+  
+  .stock-ticker ul:last-child {
+    /* background-color: pink; */
+  }
+  
+  .stock-ticker .company,
+  .stock-ticker .price {
+    font-weight: bold;
+  }
+  
+  .stock-ticker .price {
+    margin-inline: 4px;
+  }
+
+  
+
+
+
+  /* @media screen and (max-width: 479px) {
+    .stock-ticker .price.no-margin-right {
+        margin-right: 0;
+      }
+    
+      .stock-ticker .price.no-margin-left {
+        margin-left: 0;
+      }
+
+      .stock-ticker ul {
+        padding-left: 0;
+      }
+  } */
+  
