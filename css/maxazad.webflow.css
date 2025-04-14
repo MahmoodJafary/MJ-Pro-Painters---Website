@@ -939,6 +939,12 @@ label {
   line-height: 1.55;
 }
 
+@media screen and (max-width: 479px) {
+  .span-text.small-h1-text {
+      font-size: 15px;
+    }
+}
+
 .right-tab-slide-parent {
   width: 200%;
   height: 100%;
