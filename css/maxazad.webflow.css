@@ -1633,6 +1633,11 @@ label {
   background-color: #5e5e5e;
   border-radius: 1000%;
   overflow: hidden;
+
+  background-image: url('../Jobs-photos/Job-5/20241011_164835.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ._3d-img {
