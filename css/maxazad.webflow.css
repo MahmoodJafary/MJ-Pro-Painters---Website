@@ -1619,8 +1619,8 @@ label {
 
 ._3d-img-child {
   z-index: 1;
-  width: 65em;
-  height: 65em;
+  width: 100vw;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1631,7 +1631,7 @@ label {
   width: 100%;
   height: 100%;
   background-color: #5e5e5e;
-  border-radius: 1000%;
+  /* border-radius: 1000%; */
   overflow: hidden;
 
   background-image: url('../Jobs-photos/Job-5/20241011_164835.jpg');
@@ -1643,7 +1643,7 @@ label {
 ._3d-img {
   width: 100%;
   height: 100%;
-  border-radius: 1000%;
+  /* border-radius: 1000%; */
   position: absolute;
 }
 
