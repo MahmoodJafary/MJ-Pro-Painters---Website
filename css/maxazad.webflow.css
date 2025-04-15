@@ -1619,8 +1619,8 @@ label {
 
 ._3d-img-child {
   z-index: 1;
-  width: 40em;
-  height: 40em;
+  width: 65em;
+  height: 65em;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1643,21 +1643,21 @@ label {
 }
 
 ._3d-img.img-1 {
-  background-image: url('../images/wirframing-hand-moving-pins-web-design.jpg');
+  background-image: url('../Jobs-photos/Job-5/20241011_164745.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 ._3d-img.img-2 {
-  background-image: url('../images/learning-client-meeting.jpg');
+  background-image: url('../Jobs-photos/Job-5/20241011_164835.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 ._3d-img.img-3 {
-  background-image: url('../images/making-sketching-logos-desk.jpg');
+  background-image: url('../Jobs-photos/Job-5/20241011_170805.jpg');
   background-position: 4%;
   background-repeat: no-repeat;
   background-size: cover;
