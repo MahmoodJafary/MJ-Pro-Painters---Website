@@ -3514,10 +3514,10 @@ label {
     display: none;
   }
 
-  ._3d-img-child {
+  /* ._3d-img-child {
     width: 50em;
     height: 50em;
-  }
+  } */
 
   ._3d-grand-child {
     width: 60em;
@@ -4348,10 +4348,10 @@ label {
     height: 9em;
   }
 
-  ._3d-img-child {
+  /* ._3d-img-child {
     width: 65em;
     height: 65em;
-  }
+  } */
 
   .circle-inner-ap {
     width: 83.224%;
