@@ -1,4 +1,4 @@
-Webflow.require('ix2').init({
+let data = {
     "events": {
         "e-27": {
             "id": "e-27",
@@ -16196,4 +16196,273 @@ Webflow.require('ix2').init({
             "max": 479
         }]
     }
-});
+}
+// page data-wf-page="645afc9c9da6108afb361f39"
+// button data-w-id="8eda3587-ffc5-0590-a53a-9f86102e2644"
+const newData = {
+    "events": {
+        "e-446": {
+            "id": "e-446",
+            "name": "",
+            "animationType": "custom",
+            "eventTypeId": "MOUSE_OVER",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-108",
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-447"
+                }
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "id": "645afc9c9da6108afb361f39|8eda3587-ffc5-0590-a53a-9f86102e2644",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [{
+                "id": "645afc9c9da6108afb361f39|8eda3587-ffc5-0590-a53a-9f86102e2644",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            },
+            "createdOn": 1635516742490
+        },
+        "e-447": {
+            "id": "e-447",
+            "name": "",
+            "animationType": "custom",
+            "eventTypeId": "MOUSE_OUT",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-109",
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-446"
+                }
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "id": "645afc9c9da6108afb361f39|8eda3587-ffc5-0590-a53a-9f86102e2644",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [{
+                "id": "645afc9c9da6108afb361f39|8eda3587-ffc5-0590-a53a-9f86102e2644",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            },
+            "createdOn": 1635516742493
+        }
+    },
+    "actionLists": {
+        "a-108": {
+            "id": "a-108",
+            "title": "primary-button-arrow-in",
+            "actionItemGroups": [{
+                "actionItems": [{
+                    "id": "a-108-n-7",
+                    "actionTypeId": "STYLE_TEXT_COLOR",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 500,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".button-text-1",
+                            "selectorGuids": ["02f209a8-0478-f74a-154f-6a8d5eede66e"]
+                        },
+                        "globalSwatchId": "b0186854",
+                        "rValue": 0,
+                        "bValue": 0,
+                        "gValue": 0,
+                        "aValue": 1
+                    }
+                }, {
+                    "id": "a-108-n",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow",
+                            "selectorGuids": ["8cc94530-7f95-1acf-6873-11000a80618d"]
+                        },
+                        "xValue": 0,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }, {
+                    "id": "a-108-n-5",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow2",
+                            "selectorGuids": ["94625515-f90c-c976-9d34-551ca99e73ed"]
+                        },
+                        "xValue": -131,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }]
+            }, {
+                "actionItems": [{
+                    "id": "a-108-n-4",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 400,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow",
+                            "selectorGuids": ["8cc94530-7f95-1acf-6873-11000a80618d"]
+                        },
+                        "xValue": 131,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }, {
+                    "id": "a-108-n-8",
+                    "actionTypeId": "STYLE_TEXT_COLOR",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 350,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".button-text-1",
+                            "selectorGuids": ["02f209a8-0478-f74a-154f-6a8d5eede66e"]
+                        },
+                        "globalSwatchId": "b1fed604",
+                        "rValue": 255,
+                        "bValue": 255,
+                        "gValue": 255,
+                        "aValue": 1
+                    }
+                }, {
+                    "id": "a-108-n-6",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 400,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow2",
+                            "selectorGuids": ["94625515-f90c-c976-9d34-551ca99e73ed"]
+                        },
+                        "xValue": 0,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }]
+            }],
+            "useFirstGroupAsInitialState": true,
+            "createdOn": 1635516087066
+        },
+        "a-109": {
+            "id": "a-109",
+            "title": "primary-button-arrow-out",
+            "actionItemGroups": [{
+                "actionItems": [{
+                    "id": "a-109-n",
+                    "actionTypeId": "STYLE_TEXT_COLOR",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 400,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".button-text-1",
+                            "selectorGuids": ["02f209a8-0478-f74a-154f-6a8d5eede66e"]
+                        },
+                        "globalSwatchId": "b0186854",
+                        "rValue": 0,
+                        "bValue": 0,
+                        "gValue": 0,
+                        "aValue": 1
+                    }
+                }, {
+                    "id": "a-109-n-2",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 400,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow",
+                            "selectorGuids": ["8cc94530-7f95-1acf-6873-11000a80618d"]
+                        },
+                        "xValue": 0,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }, {
+                    "id": "a-109-n-3",
+                    "actionTypeId": "TRANSFORM_MOVE",
+                    "config": {
+                        "delay": 0,
+                        "easing": "outSine",
+                        "duration": 400,
+                        "target": {
+                            "useEventTarget": "CHILDREN",
+                            "selector": ".primary-button-arrow2",
+                            "selectorGuids": ["94625515-f90c-c976-9d34-551ca99e73ed"]
+                        },
+                        "xValue": -131,
+                        "xUnit": "%",
+                        "yUnit": "PX",
+                        "zUnit": "PX"
+                    }
+                }]
+            }],
+            "useFirstGroupAsInitialState": false,
+            "createdOn": 1635516087066
+        }
+    }
+};
+
+Object.assign(data.events, newData.events);
+Object.assign(data.actionLists, newData.actionLists);
+
+Webflow.require('ix2').init(data)
