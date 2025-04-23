@@ -16280,6 +16280,229 @@ const newData = {
                 "effectIn": null
             },
             "createdOn": 1635516742493
+        },
+        "e-faq-1-click": {
+            "id": "e-faq-1-click",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_CLICK",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-54", // faq-click-one
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-1-second-click"
+                }
+            },
+            "mediaQueries": ["main"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
+
+        "e-faq-1-second-click": {
+            "id": "e-faq-1-second-click",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_SECOND_CLICK",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-55", // faq-click-two
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-1-click"
+                }
+            },
+            "mediaQueries": ["main"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
+
+        // Hover effects for FAQ items
+        "e-faq-hover-in": {
+            "id": "e-faq-hover-in",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_OVER",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-52", // faq-hover-in
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-hover-out"
+                }
+            },
+            "mediaQueries": ["main"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
+
+        "e-faq-hover-out": {
+            "id": "e-faq-hover-out",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_OUT",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-53", // faq-hover-out
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-hover-in"
+                }
+            },
+            "mediaQueries": ["main"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
+
+        // Mobile-specific events
+        "e-faq-1-click-mobile": {
+            "id": "e-faq-1-click-mobile",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_CLICK",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-101", // faq-click-one-mobile
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-1-second-click-mobile"
+                }
+            },
+            "mediaQueries": ["medium", "small", "tiny"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
+
+        "e-faq-1-second-click-mobile": {
+            "id": "e-faq-1-second-click-mobile",
+            "animationType": "preset",
+            "eventTypeId": "MOUSE_SECOND_CLICK",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-102", // faq-click-two-mobile
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-1-click-mobile"
+                }
+            },
+            "mediaQueries": ["medium", "small", "tiny"],
+            "target": {
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".faq-item",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": null,
+                "scrollOffsetUnit": null,
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
         }
     },
     "actionLists": {
