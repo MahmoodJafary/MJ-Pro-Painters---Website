@@ -124,6 +124,10 @@ label {
   display: flex;
 }
 
+.hero-section-text-h1 {
+  margin-right: 50px;
+}
+
 .flex-split.is-herohp {
   align-items: flex-start;
   position: relative;
@@ -3600,6 +3604,10 @@ label {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-section-text-h1 {
+    margin-right: 0;
+  }
+
   h1 {
     font-family: Neuehaasgroteskdisplay reg, sans-serif;
     font-size: 4.7vw;
