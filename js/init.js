@@ -16281,6 +16281,42 @@ const newData = {
             },
             "createdOn": 1635516742493
         },
+        "e-faq-title-anim": {
+            "id": "e-faq-title-anim",
+            "animationType": "preset",
+            "eventTypeId": "SCROLL_INTO_VIEW",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_START_ACTION",
+                "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "actionListId": "a-48", // heading-mask-whipe-up
+                    "affectedElements": {},
+                    "playInReverse": false,
+                    "autoStopEventId": "e-faq-title-anim-out"
+                }
+            },
+            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "target": {
+                "selector": ".div-hide",
+                "appliesTo": "CLASS"
+            },
+            "targets": [{
+                "selector": ".div-hide",
+                "appliesTo": "CLASS"
+            }],
+            "config": {
+                "loop": false,
+                "playInReverse": false,
+                "scrollOffsetValue": 10,
+                "scrollOffsetUnit": "%",
+                "delay": null,
+                "direction": null,
+                "effectIn": null
+            }
+        },
         "e-faq-1-click": {
             "id": "e-faq-1-click",
             "animationType": "preset",
