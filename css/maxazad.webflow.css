@@ -939,14 +939,8 @@ label {
 .span-text.small-h1-text {
   margin-top: 1.5em;
   margin-bottom: 0;
-  font-size: 0.30em;
   line-height: 1.55;
-}
-
-@media screen and (max-width: 479px) {
-  .span-text.small-h1-text {
-      font-size: 15px;
-    }
+  margin-right: 50px;
 }
 
 .right-tab-slide-parent {
@@ -3605,6 +3599,10 @@ label {
 
 @media screen and (max-width: 767px) {
   .hero-section-text-h1 {
+    margin-right: 0;
+  }
+
+  .small-h1-text {
     margin-right: 0;
   }
 
