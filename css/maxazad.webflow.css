@@ -3603,7 +3603,7 @@ label {
   }
 
   .small-h1-text {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
   h1 {
