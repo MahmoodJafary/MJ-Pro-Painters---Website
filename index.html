@@ -183,7 +183,26 @@ pointer-events: none;
     </div>
   </div>
   <div class="page-content">
-    <header class="section">
+    <header class="section hero-section">
+      
+
+      <!-- Slider Start - Hero-section -->
+      <div class="swiper hero-section-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide one"></div>
+          <div class="swiper-slide two"></div>
+          <div class="swiper-slide three"></div>
+          <div class="swiper-slide four"></div>
+          <div class="swiper-slide five"></div>
+          <div class="swiper-slide six"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Slider Finish -->
+
+
       <div class="container is-hp-hero">
         <div class="flex-split is-herohp">
           <div class="herohp-content-contain">
@@ -890,6 +909,7 @@ pointer-events: none;
   <!-- Swiperjs Slider -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/swiperjs.js"></script>
+  <script src="js/hero-section-slider.js"></script>
   <script>
 $('.open').on('tap', function(){ $('body').toggleClass('no-scroll');
 });

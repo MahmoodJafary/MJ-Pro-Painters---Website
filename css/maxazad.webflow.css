@@ -89,6 +89,7 @@ label {
 
 .bg-cream-shade {
   background-color: #e7e2dc;
+  /* background-color: transparent; */
 }
 
 .bg-white {
@@ -122,6 +123,63 @@ label {
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+
+.hero-section {
+  position: relative !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-section-slider {
+  position: absolute !important;
+}
+
+.hero-section-slider .swiper-slide {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.hero-section-slider .swiper-slide.one {
+  background-image: url('../Jobs-photos/Job-5/20241011_164745.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.two {
+  background-image: url('../Jobs-photos/Job-5/20241011_164757.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.three {
+  background-image: url('../Jobs-photos/Job-5/20241011_164835.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.four {
+  background-image: url('../Jobs-photos/Job-5/20241011_164843.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.five {
+  background-image: url('../Jobs-photos/Job-5/20241011_164901.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.six {
+  background-image: url('../Jobs-photos/Job-5/20241011_164918.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-section-text-h1 {
