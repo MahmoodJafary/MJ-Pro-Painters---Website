@@ -2419,6 +2419,10 @@ label {
   line-height: .9;
 }
 
+.about-big-text-tab.smaller-text {
+  font-size: 6.25em;
+}
+
 .book {
   font-family: Itcavantgardepro bk, sans-serif;
 }
@@ -4606,6 +4610,10 @@ label {
     align-items: flex-start;
     font-size: 16em;
     display: flex;
+  }
+
+  .about-big-text-tab.smaller-text {
+    font-size: 16em;
   }
 
   .right-contatti-tab {
