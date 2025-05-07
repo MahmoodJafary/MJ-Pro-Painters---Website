@@ -586,6 +586,13 @@ label {
 
 .herohp-content-contain {
   width: 67%;
+  /* backdrop-filter: blur(25px); */
+  backdrop-filter: blur(15px);
+  /* border: 2px solid #c6c3c3; */
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 4em 2.5em 4em 2.5em;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hp-hero-img-contain {
@@ -4033,6 +4040,10 @@ label {
 
   .herohp-content-contain, .hp-hero-img-contain {
     width: 100%;
+  }
+
+  .herohp-content-contain {
+    padding: 7.5em 2.5em 4em 2.5em;
   }
 
   .main-button {
