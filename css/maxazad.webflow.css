@@ -182,10 +182,6 @@ label {
   background-size: cover;
 }
 
-.hero-section-text-h1 {
-  margin-right: 50px;
-}
-
 .flex-split.is-herohp {
   align-items: flex-start;
   position: relative;
@@ -998,7 +994,6 @@ label {
   margin-top: 1.5em;
   margin-bottom: 0;
   line-height: 1.55;
-  margin-right: 50px;
 }
 
 .right-tab-slide-parent {
@@ -3656,14 +3651,6 @@ label {
 }
 
 @media screen and (max-width: 767px) {
-  .hero-section-text-h1 {
-    margin-right: 0;
-  }
-
-  .small-h1-text {
-    margin-right: 0 !important;
-  }
-
   h1 {
     font-family: Neuehaasgroteskdisplay reg, sans-serif;
     font-size: 4.7vw;
@@ -4074,6 +4061,10 @@ label {
     margin-top: 8em;
     margin-bottom: 8em;
     display: flex;
+  }
+
+  .herohp-content-contain .button-contain {
+    margin-bottom: 0 !important;
   }
 
   .button-contain.is-hero-guide {
