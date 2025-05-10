@@ -89,6 +89,7 @@ label {
 
 .bg-cream-shade {
   background-color: #e7e2dc;
+  /* background-color: transparent; */
 }
 
 .bg-white {
@@ -124,8 +125,61 @@ label {
   display: flex;
 }
 
-.hero-section-text-h1 {
-  margin-right: 50px;
+.hero-section {
+  position: relative !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-section-slider {
+  position: absolute !important;
+}
+
+.hero-section-slider .swiper-slide {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.hero-section-slider .swiper-slide.one {
+  background-image: url('../Jobs-photos/Job-5/20241011_164745.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.two {
+  background-image: url('../Jobs-photos/Job-5/20241011_164757.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.three {
+  background-image: url('../Jobs-photos/Job-5/20241011_164835.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.four {
+  background-image: url('../Jobs-photos/Job-5/20241011_164843.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.five {
+  background-image: url('../Jobs-photos/Job-5/20241011_164901.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-slider .swiper-slide.six {
+  background-image: url('../Jobs-photos/Job-5/20241011_164918.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flex-split.is-herohp {
@@ -532,6 +586,13 @@ label {
 
 .herohp-content-contain {
   width: 67%;
+  /* backdrop-filter: blur(25px); */
+  backdrop-filter: blur(15px);
+  /* border: 2px solid #c6c3c3; */
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 4em 2.5em 4em 2.5em;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hp-hero-img-contain {
@@ -940,7 +1001,6 @@ label {
   margin-top: 1.5em;
   margin-bottom: 0;
   line-height: 1.55;
-  margin-right: 50px;
 }
 
 .right-tab-slide-parent {
@@ -2359,6 +2419,10 @@ label {
   line-height: .9;
 }
 
+.about-big-text-tab.smaller-text {
+  font-size: 6.25em;
+}
+
 .book {
   font-family: Itcavantgardepro bk, sans-serif;
 }
@@ -3239,7 +3303,7 @@ label {
   color: #121212;
   letter-spacing: -.023em;
   font-family: Itcavantgardepro md, sans-serif;
-  font-size: 5.2em;
+  font-size: 4.2em;
   line-height: 1.15;
 }
 
@@ -3598,14 +3662,6 @@ label {
 }
 
 @media screen and (max-width: 767px) {
-  .hero-section-text-h1 {
-    margin-right: 0;
-  }
-
-  .small-h1-text {
-    margin-right: 0 !important;
-  }
-
   h1 {
     font-family: Neuehaasgroteskdisplay reg, sans-serif;
     font-size: 4.7vw;
@@ -3787,7 +3843,7 @@ label {
   }
 
   .hero-value-display-text {
-    font-size: 6.4em;
+    font-size: 5.4em;
   }
 
   .display-text-home-contain {
@@ -3990,6 +4046,10 @@ label {
     width: 100%;
   }
 
+  .herohp-content-contain {
+    padding: 7.5em 2.5em 4em 2.5em;
+  }
+
   .main-button {
     justify-content: center;
     align-items: center;
@@ -4016,6 +4076,10 @@ label {
     margin-top: 8em;
     margin-bottom: 8em;
     display: flex;
+  }
+
+  .herohp-content-contain .button-contain {
+    margin-bottom: 0 !important;
   }
 
   .button-contain.is-hero-guide {
@@ -4548,6 +4612,10 @@ label {
     display: flex;
   }
 
+  .about-big-text-tab.smaller-text {
+    font-size: 16em;
+  }
+
   .right-contatti-tab {
     width: 100%;
     margin-top: 6em;
@@ -4854,7 +4922,7 @@ label {
 
   .hero-value-display-text {
     text-align: left;
-    font-size: 9.9em;
+    font-size: 8.9em;
   }
 
   .hero-value-display-text.mobile {
