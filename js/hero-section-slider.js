@@ -8,7 +8,7 @@ var swiper = new Swiper(".hero-section-slider", {
       clickable: true,
     },
     autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false
     },
   });
